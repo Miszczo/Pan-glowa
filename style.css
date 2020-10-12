@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.circle {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: coral;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.eyes {
+    margin-top: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.eye {
+    width: 70px;
+    height: 70px;
+    background-color: cornsilk;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot {
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.smile {
+    height: 50px;
+    width: 200px;
+    margin-bottom: 50px;
+    border-bottom: 20px solid #222;
+    border-radius: 50%;
+  }
